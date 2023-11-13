@@ -1,0 +1,24 @@
+plugins {
+	id 'com.axelor.app'
+}
+
+axelor {
+	title "Test"
+	description "Test"
+} 
+
+dependencies {
+	api "com.axelor.apps:axelor-base:${version}"
+	api "com.axelor.apps:axelor-account:${version}"
+	api "com.axelor.apps:axelor-crm:${version}"
+	api "com.axelor.apps:axelor-supplychain:${version}"
+	api "com.axelor.apps:axelor-bank-payment:${version}"
+	api "com.axelor.apps:axelor-talent:${version}"
+	api "com.axelor.apps:axelor-human-resource:${version}"
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(11))
+    }
+}

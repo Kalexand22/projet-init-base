@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<object-views xmlns="http://axelor.com/xml/ns/object-views"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://axelor.com/xml/ns/object-views http://axelor.com/xml/ns/object-views/object-views_6.1.xsd">
+
+  <menuitem name="menu-test-parent" title="Test" action="action-view-test"/>
+
+
+
+  <action-view title="Test" name="action-view-test"
+    model="com.axelor.apps.openauction.db.Test">
+    <view type="grid" name="test-grid"/>
+    <view type="form" name="test-form"/>
+  </action-view>
+
+
+
+
+</object-views>
